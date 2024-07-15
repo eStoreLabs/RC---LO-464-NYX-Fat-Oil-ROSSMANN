@@ -36,7 +36,7 @@ body {
 }
 
 .es-rc #es-rc-content {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   max-width: 930px;
   margin-inline: auto;
   overflow: hidden;
@@ -58,7 +58,7 @@ body {
   padding: 0;
 }
 .es-rc #es-rc-content .es-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   text-align: center;
@@ -187,7 +187,8 @@ body {
   }
 }
 .es-rc #es-rc-content .es-kv__container--left {
-  background: url("https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/kv-packhot_static.png") no-repeat center center;
+  background: url('https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/kv-packhot_static.png')
+    no-repeat center center;
   background-size: cover;
   min-height: 550px;
   position: relative;
@@ -282,7 +283,8 @@ body {
 }
 .es-rc #es-rc-content .es-info {
   padding: 2rem;
-  background: url("https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/info-bg-b.png") no-repeat center;
+  background: url('https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/info-bg-b.png')
+    no-repeat center;
   background-size: cover;
 }
 .es-rc #es-rc-content .es-info .es-title {
@@ -293,8 +295,9 @@ body {
 }
 .es-rc #es-rc-content .es-info .es-title::after {
   position: absolute;
-  content: "";
-  background: url("https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/lip-drip.png") no-repeat center;
+  content: '';
+  background: url('https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/lip-drip.png')
+    no-repeat center;
   top: 0;
   left: 64%;
   background-size: 61%;
@@ -314,9 +317,18 @@ body {
     background-size: 80%;
   }
 }
+.es-rc #es-rc-content .es-info .es-title--2::after {
+  background: url('https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/slick-click.png')
+    no-repeat center;
+  width: 200px;
+  height: 70px;
+  background-size: 45%;
+}
 @media screen and (min-width: 1300px) {
   .es-rc #es-rc-content .es-info .es-title--2::after {
-    left: 42%;
+    left: 35%;
+    height: 55px;
+    background-size: 70%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -325,7 +337,7 @@ body {
   }
 }
 .es-rc #es-rc-content .es-info__subtitle {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   font-size: 20px;
@@ -376,7 +388,7 @@ body {
   }
 }
 .es-rc #es-rc-content .es-info__single {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-size: 12px;
   font-weight: 400;
@@ -386,13 +398,14 @@ body {
 }
 .es-rc #es-rc-content .es-info__single::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 27px;
   height: 33px;
   top: 50%;
   left: -20px;
   transform: translate(0, -50%);
-  background: url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/checkbox.png) no-repeat center;
+  background: url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/checkbox.png)
+    no-repeat center;
   background-size: contain;
 }
 .es-rc #es-rc-content .es-info__single--2::before {
@@ -432,14 +445,17 @@ body {
 }
 @media screen and (min-width: 768px) {
   .es-rc #es-rc-content .es-info {
-    background: url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/info-bg-desktop.png) no-repeat center right;
+    background: url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/info-bg-desktop.png)
+      no-repeat center right;
     background-size: cover;
   }
 }
 @media screen and (min-width: 768px) {
   .es-rc #es-rc-content .es-info--2 {
     margin-top: -260px;
-    background: #7eac12 url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/info-2-bg-desktop.png) no-repeat left center;
+    background: #7eac12
+      url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/info-2-bg-desktop.png)
+      no-repeat left center;
     background-size: cover;
     height: 712px;
   }
@@ -530,7 +546,7 @@ body {
 }
 .es-rc #es-rc-content .es-colors__img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 200ms ease-in-out;
 }
 @media screen and (min-width: 1300px) {
@@ -542,7 +558,7 @@ body {
   }
 }
 .es-rc #es-rc-content .es-colors__name {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #abc41e;
   font-size: 22px;
@@ -668,7 +684,7 @@ body {
 }
 .es-rc #es-rc-content .es-shades__img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 200ms ease-in-out;
   max-width: 38%;
   min-height: 226px;
@@ -679,7 +695,7 @@ body {
   }
 }
 .es-rc #es-rc-content .es-shades__name {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #abc41e;
   font-size: 22px;
@@ -752,7 +768,7 @@ body {
     position: relative;
   }
   .es-rc #es-rc-content .es-features__single--1:after {
-    content: "";
+    content: '';
     position: absolute;
     top: 63px;
     display: block;
@@ -767,7 +783,7 @@ body {
     margin-top: 0;
   }
   .es-rc #es-rc-content .es-features__single--2:before {
-    content: "";
+    content: '';
     position: absolute;
     top: -56%;
     left: -13%;
@@ -848,7 +864,7 @@ body {
   position: relative;
 }
 .es-rc #es-rc-content .es-steps__single:before {
-  content: "";
+  content: '';
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -865,11 +881,11 @@ body {
   }
 }
 .es-rc #es-rc-content .es-steps__single--1:before {
-  background-image: url("https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/step-1_img.png");
+  background-image: url('https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/step-1_img.png');
   width: 30px;
 }
 .es-rc #es-rc-content .es-steps__single--2:before {
-  background-image: url("https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/step-2_img.png");
+  background-image: url('https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/step-2_img.png');
   width: 50px;
   left: -5%;
   top: 37%;
@@ -881,7 +897,7 @@ body {
   }
 }
 .es-rc #es-rc-content .es-steps__name {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 22px;
   color: #8168a2;
@@ -889,8 +905,26 @@ body {
   text-align: center;
   background-color: #ffffff;
   width: 99%;
-  -webkit-clip-path: polygon(5% 0%, 95% 0%, 100% 50%, 100% 50%, 95% 100%, 5% 100%, 0% 50%, 0% 50%);
-          clip-path: polygon(5% 0%, 95% 0%, 100% 50%, 100% 50%, 95% 100%, 5% 100%, 0% 50%, 0% 50%);
+  -webkit-clip-path: polygon(
+    5% 0%,
+    95% 0%,
+    100% 50%,
+    100% 50%,
+    95% 100%,
+    5% 100%,
+    0% 50%,
+    0% 50%
+  );
+  clip-path: polygon(
+    5% 0%,
+    95% 0%,
+    100% 50%,
+    100% 50%,
+    95% 100%,
+    5% 100%,
+    0% 50%,
+    0% 50%
+  );
   padding: 4px;
   position: absolute;
   bottom: -12px;
@@ -899,7 +933,8 @@ body {
   text-align: center;
 }
 .es-rc #es-rc-content .es-cross {
-  background: url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/cross-bg.png) no-repeat center;
+  background: url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/cross-bg.png)
+    no-repeat center;
   background-size: cover;
   padding: 2rem;
 }
@@ -951,7 +986,11 @@ body {
   gap: 2rem;
   background-size: 100% 100%;
   background-position: 0px 0px;
-  background-image: radial-gradient(50% 30% at 50% 27%, rgba(48, 233, 234, 0.3) 0%, rgba(7, 58, 255, 0) 100%);
+  background-image: radial-gradient(
+    50% 30% at 50% 27%,
+    rgba(48, 233, 234, 0.3) 0%,
+    rgba(7, 58, 255, 0) 100%
+  );
 }
 .es-rc #es-rc-content .es-cross__single:hover .es-cross__img {
   scale: 1.05;
@@ -1005,7 +1044,7 @@ body {
   text-align: center;
 }
 .es-rc #es-rc-content .es-cross__link {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 900;
@@ -1172,4 +1211,4 @@ body {
 .es-reveal--right.active {
   transform: translateX(0);
   opacity: 1;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
