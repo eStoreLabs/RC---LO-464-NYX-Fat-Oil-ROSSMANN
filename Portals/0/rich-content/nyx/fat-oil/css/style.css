@@ -404,7 +404,7 @@ body {
   top: 50%;
   left: -20px;
   transform: translate(0, -50%);
-  background: url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/checkbox.png)
+  background: url('https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/checkbox.png')
     no-repeat center;
   background-size: contain;
 }
@@ -445,7 +445,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .es-rc #es-rc-content .es-info {
-    background: url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/info-bg-desktop.png)
+    background: url('https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/info-bg-desktop.png')
       no-repeat center right;
     background-size: cover;
   }
@@ -454,7 +454,7 @@ body {
   .es-rc #es-rc-content .es-info--2 {
     margin-top: -260px;
     background: #7eac12
-      url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/info-2-bg-desktop.png)
+      url('https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/info-2-bg-desktop.png')
       no-repeat left center;
     background-size: cover;
     height: 712px;
@@ -933,7 +933,7 @@ body {
   text-align: center;
 }
 .es-rc #es-rc-content .es-cross {
-  background: url(https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/cross-bg.png)
+  background: url('https://www.ros.net.pl/Portals/0/rich-content/nyx/fat-oil/img/cross-bg.png')
     no-repeat center;
   background-size: cover;
   padding: 2rem;
